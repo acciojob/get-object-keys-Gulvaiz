@@ -3,9 +3,9 @@ const student = {
      name: xyz
 }
 
-object.prototype.getKeys = function (){
-      result object.keys(this)
-}
+Object.prototype.getKeys = function() {
+    return Object.keys(this);
+};
 
 const result = student.getKeys()
 console.log(result)

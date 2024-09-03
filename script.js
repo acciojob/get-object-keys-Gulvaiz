@@ -1,11 +1,13 @@
-//your JS code here. If required.
+// Create the student object with a property called name
 const student = {
-     name: xyz
-}
+    name: 'xyz'
+};
 
+// Add a method to the Object prototype called getKeys
 Object.prototype.getKeys = function() {
     return Object.keys(this);
 };
 
-const result = student.getKeys()
-console.log(result)
+// Call the getKeys method on the student object
+const keys = student.getKeys();
+console.log(keys); // Output: ["name"]
